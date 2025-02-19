@@ -44,7 +44,7 @@ export class Gl {
 
   async load() {
     const loader = new TextureLoader();
-    const src = "/img/window.png";
+    const src = "./assets/img/01.jpeg";
 
     const p = new Promise((resolve) => {
       const texture = loader.load(src, () => {
